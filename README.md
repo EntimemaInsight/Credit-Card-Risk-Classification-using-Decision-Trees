@@ -26,3 +26,15 @@ The primary objectives of this project are as follows:
 4. **Model Evaluation**: We evaluate the model's performance using cross-validation to measure its accuracy. We also create a visual representation of the decision tree and a confusion matrix.
 
 5. **Making Predictions**: We demonstrate how to use the trained model to make predictions on new data, including creating a new CSV file with the predictions.
+
+## Results
+The Decision Tree classifier achieved high accuracy in classifying credit card risk levels. It had a mean cross-validation accuracy of approximately 99.70%. The classification report showed excellent precision, recall, and F1-score for each risk class, indicating the model's effectiveness.
+
+## Production Dataset and Output File
+For the production phase, a separate dataset named "New_Data.csv" was used. This dataset contains new credit card data that needs risk classification.
+
+The results of the classifier, including the predicted risk classes, were saved to a new CSV file named "ProductionalData.csv" for further analysis and use.
+
+## Credits
+This project was implemented by Aleksandar Dimitrov and is licensed under the MIT License. If you have any questions or comments, please feel free to contact me at alexi.zein@gmail.com.
+
